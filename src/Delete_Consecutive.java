@@ -7,7 +7,7 @@ public class Delete_Consecutive {
     public static void main(String[] args) {
         // here is demo input 
          Scanner scn = new Scanner(System.in);
-        int N = scn.nextInt();
+
         scn.nextLine(); // Consume the newline character after N
         
         String sequence = scn.nextLine();
