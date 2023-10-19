@@ -13,5 +13,6 @@ function removeDuplicates(s) {
 }
 
 console.log(removeDuplicates("abbacdccd"));
+console.log(removeDuplicates("abaacdccd"));
    
     
