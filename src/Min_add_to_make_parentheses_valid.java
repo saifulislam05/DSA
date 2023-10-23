@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _7Min_add_to_make_parentheses_valid {
+public class Min_add_to_make_parentheses_valid {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
