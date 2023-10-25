@@ -4,10 +4,13 @@ import java.util.Scanner;
 public class Contains_Duplicate {
     public static boolean containsDuplicate(int[] nums) {
         HashSet<Integer> hs=new HashSet<>();
-        for(int i=0;i<nums.length;i++){
+        for (int i = 0; i < nums.length; i++) {
+            if (hs.contains(nums[i]))
+                return true;
             hs.add(nums[i]);
         }
-        return nums.length != hs.size();
+        return false;
+
     }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
